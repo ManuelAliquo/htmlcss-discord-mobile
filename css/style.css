@@ -9,6 +9,20 @@ img {
 }
 
 body {
-    background-color: darkblue;
+    background-color: rgb(25, 29, 123);
+    color: white;
+    font-family: "DM Sans", sans-serif;
 }
 
+.download-section h1 {
+    font-family: "Sigmar", sans-serif;
+    font-weight: 500;
+    line-height: 1;
+    margin: 20px 25px;
+}
+
+.download-section {
+    width: 80%;
+    margin: 80px auto 20px;
+    text-align: center;
+}
