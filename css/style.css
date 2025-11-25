@@ -26,3 +26,21 @@ body {
     margin: 80px auto 20px;
     text-align: center;
 }
+
+button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 15px 40px;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    
+}
+
+.donlwoad-button {
+    background-color: rgb(255, 255, 255);
+}
+
+.browser-button {
+    background-color: rgb(88, 101, 242);
+    color: white;
+}
