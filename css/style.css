@@ -44,3 +44,11 @@ button {
     background-color: rgb(88, 101, 242);
     color: white;
 }
+
+.card {
+    margin: 50px auto;
+    width: 90%;
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
