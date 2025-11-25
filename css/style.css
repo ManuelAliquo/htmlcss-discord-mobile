@@ -15,6 +15,13 @@ body {
 }
 
 /* Header */
+header {
+    height: 300px;
+    background-image: url(../img/banner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 h1 {
     font-family: "Sigmar", sans-serif;
     font-weight: 500;
@@ -29,7 +36,7 @@ h1 {
 
 .download-section {
     width: 80%;
-    margin: 80px auto 20px;
+    margin: 50px auto 20px;
     text-align: center;
 }
 
@@ -53,7 +60,8 @@ button {
 .card {
     margin: 50px auto;
     width: 90%;
-    background-color: rgb(93, 100, 209);
+    background: #32328C;
+    background: linear-gradient(150deg, rgb(50, 50, 140) 0%, rgb(49, 66, 166) 30%, rgb(49, 106, 166) 100%);
     padding: 30px;
     border-radius: 30px;
     position: relative;
@@ -70,7 +78,8 @@ button {
     background-size: contain;
     position: absolute;
     top: 0;
-    transform: translate(0, -50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .card .cube{
